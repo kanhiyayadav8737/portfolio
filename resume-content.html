@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume - Your Name</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background: white;
+        }
+        .header {
+            text-align: center;
+            border-bottom: 3px solid #2563eb;
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+        }
+        .header h1 {
+            color: #2563eb;
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+        .contact-info {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+            margin-top: 10px;
+        }
+        .contact-info span {
+            color: #666;
+        }
+        .section {
+            margin-bottom: 30px;
+        }
+        .section h2 {
+            color: #2563eb;
+            font-size: 1.5rem;
+            border-bottom: 2px solid #e5e7eb;
+            padding-bottom: 5px;
+            margin-bottom: 15px;
+        }
+        .education-item, .experience-item, .project-item {
+            margin-bottom: 20px;
+        }
+        .education-item h3, .experience-item h3, .project-item h3 {
+            color: #1f2937;
+            margin-bottom: 5px;
+        }
+        .institution, .company {
+            color: #2563eb;
+            font-weight: 600;
+        }
+        .date {
+            color: #666;
+            font-style: italic;
+        }
+        .grade {
+            background: #dcfce7;
+            color: #16a34a;
+            padding: 2px 8px;
+            border-radius: 12px;
+            font-size: 0.9rem;
+            font-weight: 600;
+        }
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+        }
+        .skill-category h4 {
+            color: #2563eb;
+            margin-bottom: 10px;
+        }
+        .skill-list {
+            list-style: none;
+            padding: 0;
+        }
+        .skill-list li {
+            background: #f3f4f6;
+            padding: 5px 10px;
+            margin: 5px 0;
+            border-radius: 15px;
+            display: inline-block;
+            margin-right: 10px;
+        }
+        .achievements ul {
+            list-style-type: disc;
+            padding-left: 20px;
+        }
+        .achievements li {
+            margin-bottom: 8px;
+        }
+        @media print {
+            body { font-size: 12px; }
+            .header h1 { font-size: 2rem; }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Kanhaiya Yadav</h1>
+        <p>MCA Graduate | Frontend Developer</p>
+        <div class="contact-info">
+            <span>📧 yadavkanhaa246@gmail.com</span>
+            <span>📱 +91 8737943678</span>
+            <span>🌐 linkedin.com/in/kanhaiya-yadav</span>
+            <span>💻 github.com/Kanhaiyayadav8737</span>
+            <span>📍 Noida, India</span>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>🎯 Objective</h2>
+        <p>Recent MCA graduate with a practical understanding of HTML, CSS, JavaScript, and React.js, gained through academic projects and self-driven learning. Eager to start a career as a Frontend Developer, where I can build on my skills, contribute to real-world projects, and learn from experienced team members in a professional development environment.</p>
+    </div>
+
+    <div class="section">
+        <h2>🎓 Education</h2>
+        <div class="education-item">
+            <h3>Master of Computer Applications (MCA)</h3>
+            <div class="institution">Shri Ramswaroop Memorial College of Engineering and Management, Lucknow</div>
+            <div class="date">2023 - 2025</div>
+            <div style="margin-top: 8px;">
+                <span class="grade">Current Student</span>
+            </div>
+            <p><strong>Specialization:</strong> Software Development, Web Technologies, Data Structures and Algorithms</p>
+        </div>
+        
+        <div class="education-item">
+            <h3>Bachelor of Science (B.Sc.)</h3>
+            <div class="institution">HRPG College, Khalilabad</div>
+            <div class="date">2019 - 2022</div>
+            <div style="margin-top: 8px;">
+                <span class="grade">Completed</span>
+            </div>
+            <p><strong>Foundation:</strong> Mathematics, Physics, Computer Science Fundamentals</p>
+        </div>
+        
+        <div class="education-item">
+            <h3>Intermediate (12th)</h3>
+            <div class="institution">Hiralal Ramniwas Inter College, Khalilabad</div>
+            <div class="date">2017 - 2019</div>
+            <div style="margin-top: 8px;">
+                <span class="grade">Completed</span>
+            </div>
+            <p><strong>Stream:</strong> Science with Mathematics and Physics</p>
+        </div>
+        
+        <div class="education-item">
+            <h3>Class X (10th Grade)</h3>
+            <div class="institution">Swami Vivekananda Higher Secondary School, Raipur</div>
+            <div class="date">UP Board 2017</div>
+            <div style="margin-top: 8px;">
+                <span class="grade">Percentage: 82.16%</span>
+            </div>
+            <p><strong>Foundation:</strong> Strong performance in core subjects with excellent academic achievement</p>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>💼 Professional Status</h2>
+        <div class="experience-item">
+            <h3>Recent MCA Graduate</h3>
+            <div class="company">Seeking Frontend Developer Opportunities</div>
+            <div class="date">2025 - Present</div>
+            <ul>
+                <li>Completed comprehensive MCA program with focus on software development</li>
+                <li>Built multiple frontend projects including Amazon clone with 20+ products</li>
+                <li>Gained practical experience in data analysis and visualization</li>
+                <li>Ready to contribute to real-world projects in a professional environment</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>🚀 Projects</h2>
+        <div class="project-item">
+            <h3>Amazon Clone – E-commerce Frontend</h3>
+            <p><strong>Technologies:</strong> JavaScript, HTML, CSS, React.js</p>
+            <p><strong>Duration:</strong> July 2024 - Present</p>
+            <p>Built a responsive Amazon-like UI for over 20+ product items using modular components. Implemented cart functionality and dynamic routing using React state and props. Achieved 100% responsiveness across desktop and mobile screens using Flexbox & Grid.</p>
+        </div>
+        
+        <div class="project-item">
+            <h3>EDA on Amazon Sales Dataset</h3>
+            <p><strong>Technologies:</strong> Python, Pandas, Matplotlib, Seaborn, NumPy</p>
+            <p><strong>Duration:</strong> September 2024</p>
+            <p>Conducted exploratory data analysis on Amazon sales dataset, analyzing the ups and downs in Amazon sales. Handled missing data and outliers using NumPy, enhancing data integrity. Visualized insights through heatmaps, line charts, and bar graphs using Matplotlib and Seaborn, improving data presentation clarity by 40%.</p>
+        </div>
+        
+        <div class="project-item">
+            <h3>Tic Tac Toe Game</h3>
+            <p><strong>Technologies:</strong> JavaScript, HTML, CSS</p>
+            <p><strong>Duration:</strong> July 2025</p>
+            <p>Developed a simple two-player game where players take turns marking X or O on a 3×3 grid. Implemented win detection logic for horizontal, vertical, and diagonal combinations. The game ends when a player wins or the grid is full, resulting in a draw.</p>
+        </div>
+        
+        <div class="project-item">
+            <h3>Rock Paper Scissors Game</h3>
+            <p><strong>Technologies:</strong> JavaScript, HTML, CSS</p>
+            <p><strong>Duration:</strong> July 2025</p>
+            <p>Created an interactive hand game between two players with complete game logic. Implemented the rules where rock beats scissors, scissors beats paper, and paper beats rock. Added score tracking and visual feedback for enhanced user experience.</p>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>🛠️ Technical Skills</h2>
+        <div class="skills-grid">
+            <div class="skill-category">
+                <h4>Programming Languages</h4>
+                <ul class="skill-list">
+                    <li>JavaScript</li>
+                    <li>Python</li>
+                    <li>C Programming</li>
+                    <li>MySQL</li>
+                </ul>
+            </div>
+            <div class="skill-category">
+                <h4>Web Technologies</h4>
+                <ul class="skill-list">
+                    <li>HTML5</li>
+                    <li>CSS3</li>
+                    <li>React.js</li>
+                    <li>Responsive Design</li>
+                </ul>
+            </div>
+            <div class="skill-category">
+                <h4>Libraries & Tools</h4>
+                <ul class="skill-list">
+                    <li>Pandas</li>
+                    <li>NumPy</li>
+                    <li>Matplotlib</li>
+                    <li>Git/GitHub</li>
+                    <li>VS Code</li>
+                    <li>Jupyter Notebook</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>🏆 Certifications</h2>
+        <div class="achievements">
+            <ul>
+                <li><strong>Data Concepts Certificate</strong> - Issued by IBM</li>
+                <li><strong>Data Science and AI Certification</strong> - IBM Certification Program</li>
+                <li><strong>Hands-on Experience:</strong> Data cleansing, exploratory data analysis, and visualization</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>🎯 Key Concepts & Knowledge</h2>
+        <div class="achievements">
+            <ul>
+                <li><strong>Data Structures and Algorithms</strong> - Strong foundation in problem-solving</li>
+                <li><strong>Object-Oriented Programming (OOP)</strong> - Applied in various projects</li>
+                <li><strong>Database Management Systems (DBMS)</strong> - Understanding of database concepts</li>
+                <li><strong>Operating Systems</strong> - Core computer science fundamentals</li>
+                <li><strong>Responsive Web Design</strong> - Mobile-first development approach</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>🏆 Extra-Curricular Activities & Awards</h2>
+        <div class="achievements">
+            <ul>
+                <li><strong>Government Award (2019)</strong> - Awarded by Uttar Pradesh Government for social awareness in society</li>
+                <li><strong>Scout Team Leader (2019)</strong> - Led a team focused on social awareness and community service initiatives</li>
+                <li><strong>Social Awareness Volunteer (2019-Present)</strong> - Active participation in community service and social awareness programs</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

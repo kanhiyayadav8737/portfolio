@@ -1,0 +1,136 @@
+%PDF-1.4
+1 0 obj
+<<
+/Type /Catalog
+/Pages 2 0 R
+>>
+endobj
+
+2 0 obj
+<<
+/Type /Pages
+/Kids [3 0 R]
+/Count 1
+>>
+endobj
+
+3 0 obj
+<<
+/Type /Page
+/Parent 2 0 R
+/MediaBox [0 0 612 792]
+/Contents 4 0 R
+/Resources <<
+/Font <<
+/F1 5 0 R
+>>
+>>
+>>
+endobj
+
+4 0 obj
+<<
+/Length 2000
+>>
+stream
+BT
+/F1 18 Tf
+50 750 Td
+(YOUR NAME) Tj
+0 -30 Td
+/F1 12 Tf
+(Aspiring Software Developer & Computer Science Student) Tj
+0 -40 Td
+(Email: your.email@example.com) Tj
+0 -20 Td
+(Phone: +91 12345 67890) Tj
+0 -20 Td
+(LinkedIn: linkedin.com/in/yourprofile) Tj
+0 -20 Td
+(GitHub: github.com/yourusername) Tj
+0 -40 Td
+/F1 14 Tf
+(EDUCATION) Tj
+0 -25 Td
+/F1 12 Tf
+(Bachelor of Technology - Computer Science Engineering) Tj
+0 -20 Td
+(University Name \(2021 - 2025\)) Tj
+0 -20 Td
+(CGPA: 8.5/10) Tj
+0 -30 Td
+(Higher Secondary Education \(12th Grade\)) Tj
+0 -20 Td
+(School Name \(2019 - 2021\)) Tj
+0 -20 Td
+(Percentage: 92%) Tj
+0 -40 Td
+/F1 14 Tf
+(EXPERIENCE) Tj
+0 -25 Td
+/F1 12 Tf
+(Software Development Intern) Tj
+0 -20 Td
+(Tech Company Name \(June 2024 - August 2024\)) Tj
+0 -20 Td
+(• Developed responsive web applications using React.js and Node.js) Tj
+0 -20 Td
+(• Improved application performance by 25%) Tj
+0 -30 Td
+(Frontend Developer Intern) Tj
+0 -20 Td
+(Startup Company \(December 2023 - February 2024\)) Tj
+0 -20 Td
+(• Redesigned user interface components) Tj
+0 -20 Td
+(• Implemented responsive design principles) Tj
+0 -40 Td
+/F1 14 Tf
+(TECHNICAL SKILLS) Tj
+0 -25 Td
+/F1 12 Tf
+(Programming: JavaScript, Python, Java, C++, SQL) Tj
+0 -20 Td
+(Web Technologies: React.js, Node.js, HTML5/CSS3, Vue.js) Tj
+0 -20 Td
+(Databases & Tools: MongoDB, PostgreSQL, Git/GitHub, AWS) Tj
+0 -40 Td
+/F1 14 Tf
+(ACHIEVEMENTS) Tj
+0 -25 Td
+/F1 12 Tf
+(• Dean's List \(2023-2024\) - Academic Excellence) Tj
+0 -20 Td
+(• Hackathon Winner \(2024\) - 1st place) Tj
+0 -20 Td
+(• AWS Cloud Practitioner Certified \(2024\)) Tj
+0 -20 Td
+(• Full Stack Web Development Certificate \(2023\)) Tj
+ET
+endstream
+endobj
+
+5 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Helvetica
+>>
+endobj
+
+xref
+0 6
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000274 00000 n 
+0000002326 00000 n 
+trailer
+<<
+/Size 6
+/Root 1 0 R
+>>
+startxref
+2404
+%%EOF
